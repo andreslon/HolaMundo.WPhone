@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="HolaMundo.Wphone.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HolaMundo.Wphone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid  >
+        <StackPanel Margin="10">
+            <TextBlock FontSize="18" Text="Andreslon" HorizontalAlignment="Center" />
+            <TextBox x:Name="MyText" HorizontalAlignment="Stretch"/>
+            <Button x:ConnectionId='1' Content="Imprimir" HorizontalAlignment="Center"                     />
+            <TextBlock FontSize="14" x:Name="Result"  Text="Resultado" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Page>
+
